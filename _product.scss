@@ -1,0 +1,140 @@
+
+
+// Слайды (карусель) Bootstrap
+.carousel {
+    border: $bd-box;
+    padding-top: 10px;
+    padding-bottom: 42px;
+
+    .carousel-item {
+        background-color: $color-white;
+
+        .img-carousel {
+        width: 560px;
+        height: 724px;
+        display: block;
+        object-fit: contain;    
+    
+        }
+    }
+
+    .box_carousel {
+    display: flex;
+    align-items: center;
+    }
+    .button_carousel {
+    width: 47px;
+    height: 47px;
+    background-color: rgba(42, 42, 42, 0.15);
+    
+    top: 50%;
+
+    .previous_button {
+        background-image: url(img/Left.svg);
+        
+    }
+    .next_button {
+        background-image: url(img/Right.svg);
+    }
+
+       
+    }
+
+}
+
+// инфо на стр Продукт
+.info-box_product {
+    height: 600px;
+    
+    position: relative;
+        
+}
+.head_info {
+    width: $width_box;
+    margin: 0 auto;  
+    padding: 65px;
+    border: $bd-box;
+    background-color: $color-white;
+
+    position: absolute;
+    top: -65px;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .text_product {
+        max-width: 641px;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 65px;
+        border-bottom: $bd-box;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .group_product {
+            display: block;
+        }
+
+        .lane_2 {
+            width: 63px;
+            height: 3px;
+            background: $color;
+            margin-bottom: 12px;
+        }
+        
+        .card_info {
+            width: 555px;
+            margin-top: 48px;          
+            margin-bottom: 32px;
+        }
+        
+    }
+
+    .filter_product {
+        margin-top: 65px;
+    }
+
+    .button_cart {
+        
+        display: flex;
+        justify-content: center;
+        
+    
+        .button_product {      
+            padding: 15px 55px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: $color;
+            border: 1px solid $color;
+            text-align: center;
+            
+            
+
+    
+            .img_button {
+                width: 26px;
+                margin-right: 15px;
+            }
+            &:hover {
+                box-shadow: 0 0 10px $color;
+            }
+        }
+    
+        
+    }
+}
+
+
+
+// укороченный подвал
+.footer_short {
+    margin-top: 80px;
+    background: rgba(244, 244, 244, 1);
+}
+
+

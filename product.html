@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+
+    <!-- гугл шрифты Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- иконочные шрифты: -->
+    <script src="https://kit.fontawesome.com/5e413ca271.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Шапка -->
+    <div class="header">
+        <div class="container container_header">
+            <div class="left_header">
+                <ul class="img_menu">
+                    <li class="img_list">
+                        <a class="link0" href="index.html">
+                            <img class="sign" src="img/Brand.svg" alt="Brand">
+                        </a>
+                    </li>
+                    <li class="img_list search">
+                        <a class="link0 link_search" href="index.html">
+                            <img class="sign" src="img/Search.svg" alt="Search">
+                        </a>
+                        <div class="box_search">
+                            <form action="#">
+                                <input class="text_search" type="text" placeholder="Enter item">
+                                <button class="button_search">Search</button>
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="right_header">
+                <ul class="img_menu">
+                    <li class="img_list catalog">
+                        <a class="link0" href="#heading_menu">
+                            <img class="sign" src="img/Menu.svg" alt="Catalog">
+                        </a>
+                        <!-- Начало выпадающего меню -->
+                        <div class="place_menu"></div>
+                        <div class="menu_box">
+                            <div class="head_menu"></div>
+                            <div class="list_menu">
+                                <!-- Кнопка х Bootstrap -->
+                                <button type="button" class="btn-close btn_menu" disabled aria-label="Close"></button>
+
+                                <h4 id=heading_menu class="heading_menu">MENU</h4>
+
+                                <ul class="menu">
+                                    <li>
+                                        <a class="link0 great_menu" href="catalog.html">MAN</a>
+                                        <ul class="group_products">
+                                            <li><a class="link0" href="catalog.html">Accessories</a></li>
+                                            <li><a class="link0" href="catalog.html">Bags</a></li>
+                                            <li><a class="link0" href="catalog.html">Denim</a></li>
+                                            <li><a class="link0" href="catalog.html">T-Shirts</a></li>
+                                            <li><a class="link0" href="catalog.html"></a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="link0 great_menu" href="catalog.html">WOMAN</a>
+                                        <ul class="group_products">
+                                            <li><a class="link0" href="catalog.html">Accessories</a></li>
+                                            <li><a class="link0" href="catalog.html">Jackets & Coats</a></li>
+                                            <li><a class="link0" href="catalog.html">Polos</a></li>
+                                            <li><a class="link0" href="catalog.html">T-Shirts</a></li>
+                                            <li><a class="link0" href="catalog.html">Shirts</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="link0 great_menu" href="catalog.html">KIDS</a>
+                                        <ul class="group_products">
+                                            <li><a class="link0" href="catalog.html">Accessories</a></li>
+                                            <li><a class="link0" href="catalog.html">Jackets & Coats</a></li>
+                                            <li><a class="link0" href="catalog.html">Polos</a></li>
+                                            <li><a class="link0" href="catalog.html">T-Shirts</a></li>
+                                            <li><a class="link0" href="catalog.html">Shirts</a></li>
+                                            <li><a class="link0" href="catalog.html">Bags</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- Конец выпадающего меню -->
+
+                    </li>
+                    <li class="img_list">
+                        <a class="link0" href="registration.html" target="blank">
+                            <img class="sign" src="img/User.svg" alt="Your account">
+                        </a>
+                    </li>
+                    <li class="img_list">
+                        <a class="link0" href="cart.html" target="blank">
+                            <img class="sign" src="img/Cart.svg" alt="Shopping cart">
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 1я страница -->
+    <div class="top_page">
+        <div class="container">
+            <div class="head_page">
+                <h2 class="heading-h2_page">NEW ARRIVALS</h2>
+
+                <!-- путь Bootstrap (Хлебные крошки) -->
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a class="link0 scrumb-link" href="#">HOME</a></li>
+                        <li class="breadcrumb-item"><a class="link0 scrumb-link" href="#">MEN</a></li>
+                        <li class="breadcrumb-item active_page" aria-current="page">NEW ARRIVALS</li>
+                    </ol>
+                </nav>
+
+
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <!-- 2я страница -->
+    <figure>
+
+        <div class="container_top">
+            <div class="product-box">
+
+                <!-- Слайды Bootstrap (Карусель) -->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/Foto_Pr0.jpg" class="d-block w-100 img-carousel" alt="Foto1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Foto_Pr0.jpg" class="d-block w-100 img-carousel" alt="Foto2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Foto_Pr0.jpg" class="d-block w-100 img-carousel" alt="Foto3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev button_carousel" type="button"
+                        data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon previous_button" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next button_carousel" type="button"
+                        data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon next_button" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="container">
+            <div class="info-box_product">
+                <div class="head_info">
+                    <div class="text_product">
+                        <h4 class="heading-h4_card group_product"><span class="span0">WOMEN COLLECTION</span></h4>
+                        <div class="lane_2"></div>
+                        <div class="info_product">
+                            <h3 class="heading-h3">MOSCHINO CHEAP AND CHIC</h3>
+                            <p class="card_info">Compellingly actualize fully researched processes before proactive
+                                outsourcing. <br>
+                                Progressively syndicate collaborative architectures before cutting-edge services.
+                                Completely
+                                visualize
+                                parallel core competencies rather than exceptional portals. </p>
+                            <h3 class="heading-h3"><span class="span0">$561</span></h3>
+                        </div>
+
+                    </div>
+
+                    <div class="filter_product"></div>
+
+
+                    <div class="button_cart">
+                        <a class="button_product link0" href="cart.html">
+                            <img class="img_button" src="img/Cart pink.svg" alt="">
+                            Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </figure>
+
+
+    <!-- 3я страница -->
+    <!-- <div class="container head_info">
+        <div class="text_product">
+            <h4 class="heading-h4">WOMEN COLLECTION</h4>
+            <h3 class="heading-h3">MOSCHINO CHEAP AND CHIC</h3>
+            <p class="card_info">Compellingly actualize fully researched processes before proactive outsourcing.
+                Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize
+                parallel core competencies rather than exceptional portals. </p>
+            <h3 class="heading-h3"><span class="span0">$561</span></h3>
+        </div>
+
+        <div class="add-box">
+            <a class="link0 link_add" href="cart.html" target="blanck">
+                <img class="img_add" src="img/Cart.svg" alt="Sign cart">
+                Add to Cart</a>
+        </div>
+    </div> -->
+
+    <!-- 4я страница -->
+    <section class="sec2">
+        <div class="container">
+            <h3></h3>
+
+            <div class="products">
+                <div class="card">
+                    <figure class="card_head">
+                        <a class="link0 link_card" href="product.html" target="blank">
+                            <div class="foto_card">
+                                <img class="img_card" src="img/Foto1.jpg" alt="Foto">
+                            </div>
+                            <div class="text_card">
+                                <h4 class="heading-h4_card">ELLERY X M'O CAPSULE</h4>
+                                <p class="card_info">Known for her sculptural takes on traditional tailoring, Australian
+                                    arbiter
+                                    of
+                                    cool Kym Ellery
+                                    teams up with Moda Operandi.</p>
+                                <h3 class="heading-h3"><span class="span0">$52.00</span></h3>
+                            </div>
+                        </a>
+
+                    </figure>
+
+                    <div class="add-box">
+                        <a class="link0 link_add" href="cart.html" target="blanck">
+                            <img class="img_add" src="img/Cart.svg" alt="Sign cart">
+                            Add to Cart</a>
+                    </div>
+
+
+
+                </div>
+
+                <div class="card">
+                    <figure class="card_head">
+                        <a class="link0 link_card" href="product.html" target="blank">
+                            <div class="foto_card">
+                                <img class="img_card" src="img/Foto3.jpg" alt="Foto">
+                            </div>
+                            <div class="text_card">
+                                <h4 class="heading-h4_card">ELLERY X M'O CAPSULE</h4>
+                                <p class="card_info">Known for her sculptural takes on traditional tailoring, Australian
+                                    arbiter
+                                    of
+                                    cool Kym Ellery
+                                    teams up with Moda Operandi.</p>
+                                <h3 class="heading-h3"><span class="span0">$52.00</span></h3>
+                            </div>
+                        </a>
+
+                    </figure>
+
+                    <div class="add-box">
+                        <a class="link0 link_add" href="cart.html" target="blanck">
+                            <img class="img_add" src="img/Cart.svg" alt="Sign cart">
+                            Add to Cart</a>
+                    </div>
+
+
+
+                </div>
+
+                <div class="card">
+                    <figure class="card_head">
+                        <a class="link0 link_card" href="product.html" target="blank">
+                            <div class="foto_card">
+                                <img class="img_card" src="img/Foto6.jpg" alt="Foto">
+                            </div>
+                            <div class="text_card">
+                                <h4 class="heading-h4_card">ELLERY X M'O CAPSULE</h4>
+                                <p class="card_info">Known for her sculptural takes on traditional tailoring, Australian
+                                    arbiter
+                                    of
+                                    cool Kym Ellery
+                                    teams up with Moda Operandi.</p>
+                                <h3 class="heading-h3"><span class="span0">$52.00</span></h3>
+                            </div>
+                        </a>
+
+                    </figure>
+
+                    <div class="add-box">
+                        <a class="link0 link_add" href="cart.html" target="blanck">
+                            <img class="img_add" src="img/Cart.svg" alt="Sign cart">
+                            Add to Cart</a>
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <div class="footer footer_short">
+        <div class="footer_send">
+            <div class="foto_footer">
+                <!-- <img class="img_footer" src="img/Bg.jpg" alt="Foto"> -->
+            </div>
+            <div class="container text_footer">
+                <div class="left">
+                    <div class="figure">
+                        <div class="img_figure">
+                            <img src="img/Manager.png" alt="Foto Manager">
+                        </div>
+                        <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+                    </div>
+
+                </div>
+                <div class="right">
+                    <h2>SUBSCRIBE</h2>
+                    <h4>FOR OUR NEWLETTER AND PROMOTION</h4>
+                    <form class="form_footer" action="#">
+                        <input class="input_send" type="email" placeholder="Enter Your Email">
+                        <button class="button_send" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="container footer_bottom">
+            <div class="left_box">
+                <p>&copy 2021 Brand All Rights Reserved.</p>
+            </div>
+            <div class="right_box">
+                <nav class="nav_footer">
+                    <div class="social_box">
+                        <a class="link0 social_link" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="social_box">
+                        <a class="link0 social_link" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="social_box">
+                        <a class="link0 social_link" href="#">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                    </div>
+                    <div class="social_box">
+                        <a class="link0 social_link" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </nav>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+
+    <!-- гугл шрифты Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- иконочные шрифты: -->
+    <script src="https://kit.fontawesome.com/5e413ca271.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Шапка -->
+    <div class="header">
+        <div class="container container_header">
+            <div class="left_header">
+                <ul class="img_menu">
+                    <li class="img_list">
+                        <a class="link0" href="index.html">
+                            <img class="sign" src="img/Brand.svg" alt="Brand">
+                        </a>
+                    </li>
+                    <li class="img_list search">
+                        <a class="link0 link_search" href="index.html">
+                            <img class="sign" src="img/Search.svg" alt="Search">
+                        </a>
+                        <div class="box_search">
+                            <form action="#">
+                                <input class="text_search" type="text" placeholder="Enter item">
+                                <button class="button_search">Search</button>
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="right_header">
+                <ul class="img_menu">
+                    <li class="img_list catalog">
+                        <a class="link0" href="#heading_menu">
+                            <img class="sign" src="img/Menu.svg" alt="Catalog">
+                        </a>
+                        <!-- Начало выпадающего меню -->
+                        <div class="place_menu"></div>
+                        <div class="menu_box">
+                            <div class="head_menu"></div>
+                            <div class="list_menu">
+                                <!-- Кнопка х Bootstrap -->
+                                <button type="button" class="btn-close btn_menu" disabled aria-label="Close"></button>
+
+                                <h4 id=heading_menu class="heading_menu">MENU</h4>
+
+                                <ul class="menu">
+                                    <li>
+                                        <a class="link0 great_menu" href="catalog.html">MAN</a>
+                                        <ul class="group_products">
+                                            <li><a class="link0" href="catalog.html">Accessories</a></li>
+                                            <li><a class="link0" href="catalog.html">Bags</a></li>
+                                            <li><a class="link0" href="catalog.html">Denim</a></li>
+                                            <li><a class="link0" href="catalog.html">T-Shirts</a></li>
+                                            <li><a class="link0" href="catalog.html"></a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="link0 great_menu" href="catalog.html">WOMAN</a>
+                                        <ul class="group_products">
+                                            <li><a class="link0" href="catalog.html">Accessories</a></li>
+                                            <li><a class="link0" href="catalog.html">Jackets & Coats</a></li>
+                                            <li><a class="link0" href="catalog.html">Polos</a></li>
+                                            <li><a class="link0" href="catalog.html">T-Shirts</a></li>
+                                            <li><a class="link0" href="catalog.html">Shirts</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="link0 great_menu" href="catalog.html">KIDS</a>
+                                        <ul class="group_products">
+                                            <li><a class="link0" href="catalog.html">Accessories</a></li>
+                                            <li><a class="link0" href="catalog.html">Jackets & Coats</a></li>
+                                            <li><a class="link0" href="catalog.html">Polos</a></li>
+                                            <li><a class="link0" href="catalog.html">T-Shirts</a></li>
+                                            <li><a class="link0" href="catalog.html">Shirts</a></li>
+                                            <li><a class="link0" href="catalog.html">Bags</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- Конец выпадающего меню -->
+
+                    </li>
+                    <li class="img_list">
+                        <a class="link0" href="registration.html" target="blank">
+                            <img class="sign" src="img/User.svg" alt="Your account">
+                        </a>
+                    </li>
+                    <li class="img_list">
+                        <a class="link0" href="cart.html" target="blank">
+                            <img class="sign" src="img/Cart.svg" alt="Shopping cart">
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 1я страница -->
+    <div class="top_page">
+        <div class="container">
+            <div class="head_page">
+                <h2 class="heading-h2_page">REGISTRATION</h2>
+
+
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+    <section class="sec2">
+        <div class="container">
+            <h3></h3>
+
+            <div class="reg-box">
+                <div class="reg_form">
+                    <form action="#">
+                        Your Name <br>
+                        <input class="reg_input" type="text" placeholder="First Name"><br>
+                        <input class="reg_input" type="text" placeholder="Last Name"><br>
+
+                        <div class="radio">
+                            <input class="check_reg" id="radio-1" name="pol" type="radio" checked>
+                            <label for="radio-1" class="radio-label">Male</label>
+                            <input class="check_reg" id="radio-2" name="pol" type="radio">
+                            <label for="radio-2" class="radio-label">Female</label>
+                        </div>
+
+                        <br>
+
+                        Login details <br>
+                        <input class="reg_input" type="email" placeholder="Email"><br>
+                        <input class="reg_input" type="password" placeholder="Password">
+                        <p class="form_text">Please use 8 or more characters, with at least 1 number and a mixture of
+                            uppercase and
+                            lowercase letters</p>
+                        <button type="submit" class="button_pink reg_button">JOIN NOW <span
+                                class="span_sign">&rarr;</span></button>
+                    </form>
+                </div>
+
+                <div class="reg_info">
+                    <h4 class="heading-h2_text">LOYALTY HAS ITS PERKS</h4>
+                    <p class="reg_text info">Get in on the loyalty program where you can earn points and unlock serious
+                        perks. Starting with these as soon as you join:
+                    <ul>
+                        <li class="link0 reg_text reg_list">15% off welcome offer</li>
+                        <li class="link0 reg_text reg_list">Free shipping, returns and exchanges on all orders</li>
+                        <li class="link0 reg_text reg_list">$10 off a purchase on your birthday</li>
+                        <li class="link0 reg_text reg_list">Early access to products</li>
+                        <li class="link0 reg_text reg_list">Exclusive offers & rewards</li>
+                    </ul>
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <div class="footer footer_short">
+        <div class="footer_send">
+            <div class="foto_footer">
+                <!-- <img class="img_footer" src="img/Bg.jpg" alt="Foto"> -->
+            </div>
+            <div class="container text_footer">
+                <div class="left">
+                    <div class="figure">
+                        <div class="img_figure">
+                            <img src="img/Manager.png" alt="Foto Manager">
+                        </div>
+                        <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+                    </div>
+
+                </div>
+                <div class="right">
+                    <h2>SUBSCRIBE</h2>
+                    <h4>FOR OUR NEWLETTER AND PROMOTION</h4>
+                    <form class="form_footer" action="#">
+                        <input class="input_send" type="email" placeholder="Enter Your Email">
+                        <button class="button_send" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="container footer_bottom">
+            <div class="left_box">
+                <p>&copy 2021 Brand All Rights Reserved.</p>
+            </div>
+            <div class="right_box">
+                <nav class="nav_footer">
+                    <div class="social_box">
+                        <a class="link0 social_link" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="social_box">
+                        <a class="link0 social_link" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="social_box">
+                        <a class="link0 social_link" href="#">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                    </div>
+                    <div class="social_box">
+                        <a class="link0 social_link" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </nav>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+// 1я стр Каталог
+.head_page {
+    max-height: 148px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .heading-h2_page {
+        margin: 60px 0;
+        display: block;
+    }
+}
+// Путь (Хлебные крошки
+.breadcrumb {
+    margin: 16px 0;
+}
+.scrumb-link {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: $color-black;
+}
+.active_page {
+    color: $color;
+}
+
+
+// 2я стр Каталог
+
+// прокрутка листов (пагинация)
+.page-nav {
+    max-width: 283px;
+    margin: 0 auto;
+    margin-bottom: 96px;
+}
+.page-list {
+    max-width: 283px;
+}
+.page-link {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: $color-black;
+    
+
+    
+
+    .page_catalog {
+        font-weight: 900;
+        color: $color-black;
+        
+        
+    }
+
+    &:hover {
+        color: $color;
+        
+    }
+}
+
+
