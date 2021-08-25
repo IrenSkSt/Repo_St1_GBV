@@ -25,7 +25,7 @@
 
 <body>
     <!-- Шапка -->
-    <div class="header">
+    <header class="header">
         <div class="container container_header">
             <div class="left_header">
                 <ul class="img_menu">
@@ -48,7 +48,7 @@
                 </ul>
 
             </div>
-            <div class="right_header">
+            <nav class="right_header">
                 <ul class="img_menu">
                     <li class="img_list catalog">
                         <a class="link0" href="#heading_menu">
@@ -103,21 +103,21 @@
                         <!-- Конец выпадающего меню -->
 
                     </li>
-                    <li class="img_list">
+                    <li class="img_list li_last">
                         <a class="link0" href="registration.html" target="blank">
                             <img class="sign" src="img/User.svg" alt="Your account">
                         </a>
                     </li>
-                    <li class="img_list">
+                    <li class="img_list li_last">
                         <a class="link0" href="cart.html" target="blank">
                             <img class="sign" src="img/Cart.svg" alt="Shopping cart">
                         </a>
                     </li>
                 </ul>
 
-            </div>
+            </nav>
         </div>
-    </div>
+    </header>
 
     <!-- 1я страница -->
     <div class="top_page">
@@ -128,8 +128,8 @@
                 <!-- путь Bootstrap (Хлебные крошки) -->
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a class="link0 scrumb-link" href="#">HOME</a></li>
-                        <li class="breadcrumb-item"><a class="link0 scrumb-link" href="#">MEN</a></li>
+                        <li class="breadcrumb-item"><a class="link0 scrumb-link" href="index.html">HOME</a></li>
+                        <li class="breadcrumb-item"><a class="link0 scrumb-link" href="catalog.html">MEN</a></li>
                         <li class="breadcrumb-item active_page" aria-current="page">NEW ARRIVALS</li>
                     </ol>
                 </nav>
@@ -147,10 +147,94 @@
     <!-- 2я страница -->
     <section class="sec2">
         <div class="container">
-            <div class="filters">
-                <h2></h2>
+            <nav class="filters">
 
-            </div>
+                <div class="great_fitter">
+                    <details class="great_filter-box">
+                        <summary class="summary heading-h4_filter">FILTER
+                            <img class="sign_filter" src="img/FiterPink.svg" alt="">
+                        </summary>
+                        <details>
+                            <summary class="summary heading-h4_filter_down">CATEGORY</summary>
+                            <ul class="group_products">
+                                <li class="list_filter"><label>Accessories<input class="filter_group"
+                                            type="checkbox"></label></li>
+                                <li class="list_filter"><label>Bags<input class="filter_group" type="checkbox"></label>
+                                </li>
+                                <li class="list_filter"><label>Denim<input class="filter_group" type="checkbox"></label>
+                                </li>
+                                <li class="list_filter"><label>Hoodies & Sweatshirts<input class="filter_group"
+                                            type="checkbox"></label></li>
+                                <li class="list_filter"><label>Jackets & Coats<input class="filter_group"
+                                            type="checkbox"></label></li>
+                                <li class="list_filter"><label>Polos<input class="filter_group" type="checkbox"></label>
+                                </li>
+                                <li class="list_filter"><label>Shirts<input class="filter_group"
+                                            type="checkbox"></label></li>
+                                <li class="list_filter"><label>Shoes<input class="filter_group" type="checkbox"></label>
+                                </li>
+                                <li class="list_filter"><label>Sweaters & Knits<input class="filter_group"
+                                            type="checkbox"></label></li>
+                                <li class="list_filter"><label>T-Shirts<input class="filter_group"
+                                            type="checkbox"></label></li>
+                                <li class="list_filter"><label>Tanks<input class="filter_group" type="checkbox"></label>
+                                </li>
+                            </ul>
+                        </details>
+                        <details>
+                            <summary class="summary heading-h4_filter_down">BRAND</summary>
+                            <ul class="group_products">
+                                <li class="list_filter"><label>ABC<input class="filter_group" type="checkbox"></label>
+                                </li>
+                                <li class="list_filter"><label>ABC<input class="filter_group" type="checkbox"></label>
+                                </li>
+                                <li class="list_filter"><label>ABC<input class="filter_group" type="checkbox"></label>
+                                </li>
+                            </ul>
+                        </details>
+                        <details>
+                            <summary class="summary heading-h4_filter_down">DESIGNER</summary>
+                            <ul class="group_products">
+                                <li class="list_filter"><label>ABC<input class="filter_group" type="checkbox"></label>
+                                </li>
+                                <li class="list_filter"><label>ABC<input class="filter_group" type="checkbox"></label>
+                                </li>
+                                <li class="list_filter"><label>ABC<input class="filter_group" type="checkbox"></label>
+                                </li>
+                            </ul>
+                        </details>
+                    </details>
+
+                </div>
+                <div class="sorters">
+                    <div class="sorter-box">
+                        <details class="sorter">
+                            <summary class="summary heading-h4_filter">TRENDING&nbsp;NOW
+                                <img class="sing_sorter" src="img/sorter.svg" alt="">
+                            </summary>
+                        </details>
+                    </div>
+                    <div class="sorter-box">
+                        <details class="sorter">
+                            <summary class="summary heading-h4_filter">SIZE
+                                <img class="sing_sorter" src="img/sorter.svg" alt="">
+                            </summary>
+                        </details>
+                    </div>
+                    <div class="sorter-box">
+                        <details class="sorter">
+                            <summary class="summary heading-h4_filter">PRICE
+                                <img class="sing_sorter" src="img/sorter.svg" alt="">
+                            </summary>
+                        </details>
+                    </div>
+
+                </div>
+
+
+
+            </nav>
+
             <div class="products">
                 <div class="card">
                     <figure class="card_head">
@@ -448,28 +532,34 @@
     </section>
 
     <!-- Подвал -->
-    <div class="footer">
+    <div class="bottom-box">
         <div class="container footer_top">
-            <div class="item">
-                <img src="img/Delivery.svg" alt="">
-                <h4>Free Delivery</h4>
-                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-                </p>
-            </div>
-            <div class="item">
-                <img src="img/Discount.svg" alt="">
-                <h4>Sales & discounts</h4>
-                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-                </p>
-            </div>
-            <div class="item">
-                <img src="img/Assurience.svg" alt="">
-                <h4>Quality assurance</h4>
-                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-                </p>
-            </div>
+            <article class="item-box">
+                <figure class="item">
+                    <img src="img/Delivery.svg" alt="">
+                    <h4>Free Delivery</h4>
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
+                        models.
+                    </p>
+                </figure>
+                <figure class="item">
+                    <img src="img/Discount.svg" alt="">
+                    <h4>Sales & discounts</h4>
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
+                        models.
+                    </p>
+                </figure>
+                <figure class="item">
+                    <img src="img/Assurience.svg" alt="">
+                    <h4>Quality assurance</h4>
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
+                        models.
+                    </p>
+                </figure>
+            </article>
+
         </div>
-        <div class="footer_send">
+        <footer class="footer_send">
             <div class="foto_footer">
                 <!-- <img class="img_footer" src="img/Bg.jpg" alt="Foto"> -->
             </div>
@@ -493,8 +583,8 @@
                 </div>
             </div>
 
-        </div>
-        <div class="container footer_bottom">
+        </footer>
+        <footer class="container footer_bottom">
             <div class="left_box">
                 <p>&copy 2021 Brand All Rights Reserved.</p>
             </div>
@@ -525,7 +615,7 @@
 
 
             </div>
-        </div>
+        </footer>
     </div>
 
     <!-- Bootstrap -->

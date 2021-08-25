@@ -19,13 +19,158 @@
     font-size: 14px;
     line-height: 17px;
     color: $color-black;
+    transform: all 0.3s;
+
+    &:hover {        
+        color: $color;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 25px;        
+    }
+    
+    
 }
+
 .active_page {
-    color: $color;
+    color: $color;    
+          
 }
+
+
 
 
 // 2я стр Каталог
+.filters {
+    height: 30px;
+    padding-top: 50px;
+    
+    display: flex;
+
+    .great_fitter {
+        width: $max-width_card;
+        margin-right: 3%;
+        
+        position: relative;
+
+        .great_filter-box {
+            width: $max-width_card;
+            background-color: $color-white;
+
+            position: absolute;
+            z-index: 900;
+        }
+
+        .great_filter-box[open] {
+            background-color: $color-white;
+            box-shadow: 0 5px 8px grey;
+            padding: 16px;
+            
+        }
+
+        .heading-h4_filter {
+            font-weight: 600;
+            margin-bottom: 18px;
+            
+            display: flex;
+
+            &:after {
+                content: url(img/Filter.svg);
+                margin-left: 10px;
+                
+            }
+            .sign_filter {
+                display: none;
+                margin-left: 10px;
+            }
+
+            &:hover {
+                color: $color;
+
+                &:after {
+                    display: none;
+                }
+                & .sign_filter {
+                   display: block;
+                }
+                               
+            }
+            
+            
+        }
+        .heading-h4_filter_down {
+            font-weight: 400;
+            padding: 11px;
+            margin-bottom: 18px;
+            border-left: 5px solid $color;
+            border-bottom: $bd-box;
+            
+
+            &:hover {
+                color: $color;
+                
+            }
+
+            
+        }
+        .list_filte {
+            position: relative;
+        }
+        .filter_group {
+            margin: 10px;
+            
+            display: none;
+
+            position: absolute;
+            right: 0;
+            left: auto;
+        }
+        // .filter_group:checked {
+        //     background-color: $color-bg;
+        //     border: $bd-box;
+        // }
+        .list_filter:hover {
+            color: $color;
+        }
+        .list_filter:hover .filter_group {
+            display: inline;
+            
+        }
+        
+  
+                
+        
+       
+    }
+
+    .sorters {
+        width: $max-width_card;
+        
+        display: flex;
+                   
+
+        .sorter-box {
+                       
+            position: relative;
+
+            .sorter {
+                                
+                z-index: 900;
+
+                &:hover {
+                    color: $color;
+                }
+            }
+            
+
+            .sing_sorter {
+                margin: 10px;
+                
+            }
+        }
+    }
+
+    
+}
 
 // прокрутка листов (пагинация)
 .page-nav {

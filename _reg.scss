@@ -66,9 +66,12 @@
     }
     .reg_list {
         margin-bottom: 16px;
+        list-style-position: outside;
     }
     .reg_list:before {
         content: url(img/Check.svg);
+        width: 10px;
+        height: 10px;
         margin-right: 23px;
         
         
