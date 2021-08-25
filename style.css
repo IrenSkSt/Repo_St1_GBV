@@ -296,6 +296,10 @@ li {
   display: block;
 }
 
+.header .container_header .right_header .catalog .menu_box .great_menu:hover {
+  font-weight: 600;
+}
+
 .header .container_header .right_header .catalog .menu_box .menu > li {
   margin-top: 10px;
 }
@@ -310,8 +314,16 @@ li {
   color: #6F6E6E;
 }
 
+.header .container_header .right_header .catalog .menu_box .group_products a:hover {
+  color: #F16D7F;
+}
+
 .header .container_header .right_header .catalog .menu_box .group_products > li {
   margin: 12px;
+}
+
+.header .container_header .right_header .catalog .menu_box .group_products > li:hover {
+  color: #F16D7F;
 }
 
 .header .container_header .right_header .catalog:hover .menu_box {

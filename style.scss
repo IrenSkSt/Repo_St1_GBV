@@ -302,6 +302,12 @@ li {
                         line-height: 17px;
                         margin-bottom: 12px;
                         display: block;
+
+                        &:hover {
+                            font-weight: 600;
+                        //     font-size: 20px;
+                        // line-height: 23px;
+                        }
     
                     }
         
@@ -317,10 +323,18 @@ li {
                         font-size: 14px;
                         line-height: 17px; 
                         color: #6F6E6E;
+
+                        &:hover {
+                            color: $color;
+                        }
                          
                     }
                     .group_products>li {
                         margin: 12px;
+
+                        &:hover {
+                            color: $color;
+                        }
         
                     }
                 }
