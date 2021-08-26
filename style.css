@@ -1412,7 +1412,7 @@ li {
 }
 
 .head_info {
-  width: 1140px;
+  width: 100%;
   margin: 0 auto;
   padding: 65px;
   border: 1px solid #E2E2E2;
@@ -1461,13 +1461,60 @@ li {
 }
 
 .head_info .text_product .card_info {
-  width: 555px;
+  max-width: 555px;
   margin-top: 48px;
   margin-bottom: 32px;
 }
 
-.head_info .filter_product {
-  margin-top: 65px;
+.head_info .options_product {
+  width: 100%;
+  padding-top: 15px;
+  margin: 50px;
+}
+
+.head_info .options_product .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.head_info .options_product .options .option-box {
+  margin-right: 3%;
+}
+
+.head_info .options_product .options .option-box .options {
+  position: relative;
+}
+
+.head_info .options_product .options .option-box .options .heading-h4_filter:hover {
+  color: #F16D7F;
+}
+
+.head_info .options_product .options .option-box .options .sing_option {
+  margin: 10px;
+}
+
+.head_info .options_product .options .option-box .options .option {
+  width: 100%;
+  padding-left: 0;
+  background-color: #FBFBFB;
+  -webkit-box-shadow: 0 5px 8px grey;
+          box-shadow: 0 5px 8px grey;
+  position: absolute;
+  right: 0;
+  left: auto;
+  z-index: 900;
+}
+
+.head_info .options_product .options .option-box .options .option .check_option {
+  margin: 10px;
+}
+
+.head_info .options_product .options .option-box .options .option .choose:hover {
+  color: #F16D7F;
 }
 
 .head_info .button_cart {

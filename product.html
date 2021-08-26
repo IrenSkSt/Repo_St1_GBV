@@ -127,8 +127,8 @@
                 <!-- путь Bootstrap (Хлебные крошки) -->
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a class="link0 scrumb-link" href="#">HOME</a></li>
-                        <li class="breadcrumb-item"><a class="link0 scrumb-link" href="#">MEN</a></li>
+                        <li class="breadcrumb-item"><a class="link0 scrumb-link" href="index.html">HOME</a></li>
+                        <li class="breadcrumb-item"><a class="link0 scrumb-link" href="catalog.html">MEN</a></li>
                         <li class="breadcrumb-item active_page" aria-current="page">NEW ARRIVALS</li>
                     </ol>
                 </nav>
@@ -198,7 +198,75 @@
 
                     </div>
 
-                    <div class="filter_product"></div>
+                    <!-- Клиент выбирает опции имеющегося в наличии товара -->
+                    <form class="options_product">
+                        <div class="options">
+                            <div class="option-box">
+                                <details class="options">
+                                    <!-- Выводим доступные цвета имеющегося товара -->
+                                    <summary class="summary heading-h4_filter">CHOOSE&nbsp;COLOR
+                                        <img class="sing_option" src="img/sorter.svg" alt="">
+                                    </summary>
+                                    <div class="option">
+                                        <label class="choose"><input class="check_option" type="radio" name="color"
+                                                checked>Black</label><br>
+                                        <label class="choose"><input class="check_option" type="radio"
+                                                name="color">White</label><br>
+                                        <label class="choose"><input class="check_option" type="radio"
+                                                name="color">Red</label><br>
+                                        <label class="choose"><input class="check_option" type="radio"
+                                                name="color">Blue</label><br>
+                                        <label class="choose"><input class="check_option" type="radio"
+                                                name="color">Green</label><br>
+
+                                    </div>
+
+                                </details>
+                            </div>
+                            <div class="option-box">
+                                <!-- Выводим доступные размеры имеющегося товара -->
+                                <details class="options">
+                                    <summary class="summary heading-h4_filter">CHOOSE&nbsp;SIZE
+                                        <img class="sing_option" src="img/sorter.svg" alt="">
+                                    </summary>
+                                    <div class="option">
+                                        <label class="choose"><input class="check_option" type="radio" name="size"
+                                                checked>XS</label><br>
+                                        <label class="choose"><input class="check_option" type="radio"
+                                                name="size">S</label><br>
+                                        <label class="choose"><input class="check_option" type="radio"
+                                                name="size">M</label><br>
+                                        <label class="choose"><input class="check_option" type="radio"
+                                                name="size">L</label><br>
+                                        <label class="choose"><input class="check_option" type="radio"
+                                                name="size">XL</label><br>
+
+                                    </div>
+
+                                </details>
+                            </div>
+                            <div class="option-box">
+                                <!-- Выводим доступное количество имеющегося товара -->
+                                <details class="options">
+                                    <summary class="summary heading-h4_filter">QUANTITY
+                                        <img class="sing_option" src="img/sorter.svg" alt="">
+                                    </summary>
+                                    <div class="option">
+                                        <label class="choose"><input class="check_option" type="radio" name="number"
+                                                checked>1</label><br>
+                                        <label class="choose"><input class="check_option" type="radio"
+                                                name="number">2</label><br>
+                                        <label class="choose"><input class="check_option" type="radio"
+                                                name="number">3</label><br>
+
+
+                                    </div>
+
+                                </details>
+                            </div>
+
+                        </div>
+                    </form>
 
 
                     <div class="button_cart">
@@ -215,26 +283,7 @@
 
     </figure>
 
-
     <!-- 3я страница -->
-    <!-- <div class="container head_info">
-        <div class="text_product">
-            <h4 class="heading-h4">WOMEN COLLECTION</h4>
-            <h3 class="heading-h3">MOSCHINO CHEAP AND CHIC</h3>
-            <p class="card_info">Compellingly actualize fully researched processes before proactive outsourcing.
-                Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize
-                parallel core competencies rather than exceptional portals. </p>
-            <h3 class="heading-h3"><span class="span0">$561</span></h3>
-        </div>
-
-        <div class="add-box">
-            <a class="link0 link_add" href="cart.html" target="blanck">
-                <img class="img_add" src="img/Cart.svg" alt="Sign cart">
-                Add to Cart</a>
-        </div>
-    </div> -->
-
-    <!-- 4я страница -->
     <section class="sec2">
         <div class="container">
             <h3></h3>

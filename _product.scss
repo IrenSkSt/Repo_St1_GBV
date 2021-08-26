@@ -50,7 +50,7 @@
         
 }
 .head_info {
-    width: $width_box;
+    width: 100%;
     margin: 0 auto;  
     padding: 65px;
     border: $bd-box;
@@ -87,15 +87,64 @@
         }
         
         .card_info {
-            width: 555px;
+            max-width: 555px;
             margin-top: 48px;          
             margin-bottom: 32px;
         }
         
     }
 
-    .filter_product {
-        margin-top: 65px;
+    .options_product {
+        width: 100%;
+        padding-top: 15px;
+        margin: 50px;
+
+        .options {
+            display: flex;
+            justify-content: center;
+
+            .option-box {
+                margin-right: 3%;
+
+                .options {
+                    position: relative;
+
+                    .heading-h4_filter:hover {
+                        color: $color;
+                    }
+                    .sing_option {
+                        margin: 10px;
+                    }
+                    .option {
+                        width: 100%;
+                        padding-left: 0;                    
+                        background-color: $color-white;
+                        box-shadow: 0 5px 8px grey;
+    
+                        position: absolute;
+                        right: 0;
+                        left: auto;
+    
+                        z-index: 900;
+
+                        .check_option {
+                            margin: 10px;
+    
+                            
+                        }
+                        .choose:hover {
+                            color: $color;
+                        }
+
+                                         
+    
+                    
+                    }
+                }
+
+                
+            }
+        }
     }
 
     .button_cart {
@@ -128,6 +177,7 @@
         
     }
 }
+
 
 
 
