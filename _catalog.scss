@@ -149,23 +149,57 @@
                    
 
         .sorter-box {
-                       
-            position: relative;
+            margin-right: 3%;
 
-            .sorter {
-                                
-                z-index: 900;
-
-                &:hover {
-                    color: $color;
-                }
-            }
             
+            .sorter {
+                position: relative;
+                                
+                .heading-h4_filter:hover {
+                    color: $color;
+                } 
+                
+                .sing_sorter {
+                    margin: 10px;
+                    
+                }
+    
+                .sort {
+                    width: 100%;
+                    padding-left: 0;                    
+                    background-color: $color-white;
+                    box-shadow: 0 5px 8px grey;
+    
+                    position: absolute;
+                    right: 0;
+                    left: auto;
+    
+                    z-index: 900;
+    
+                    .list_sort {
+                        width: 100%;
 
-            .sing_sorter {
-                margin: 10px;
+                        &:hover {
+                            color: $color;
+                        }
+                    }
+                     
+    
+                    .check_sort {
+                        margin: 10px;
+                    }
+                }
+
                 
             }
+            .sorter_last {
+                width: 100%;
+
+                position: absolute;
+            }
+
+            
+            
         }
     }
 

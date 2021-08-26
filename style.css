@@ -1294,19 +1294,48 @@ li {
 }
 
 .filters .sorters .sorter-box {
-  position: relative;
+  margin-right: 3%;
 }
 
 .filters .sorters .sorter-box .sorter {
-  z-index: 900;
+  position: relative;
 }
 
-.filters .sorters .sorter-box .sorter:hover {
+.filters .sorters .sorter-box .sorter .heading-h4_filter:hover {
   color: #F16D7F;
 }
 
-.filters .sorters .sorter-box .sing_sorter {
+.filters .sorters .sorter-box .sorter .sing_sorter {
   margin: 10px;
+}
+
+.filters .sorters .sorter-box .sorter .sort {
+  width: 100%;
+  padding-left: 0;
+  background-color: #FBFBFB;
+  -webkit-box-shadow: 0 5px 8px grey;
+          box-shadow: 0 5px 8px grey;
+  position: absolute;
+  right: 0;
+  left: auto;
+  z-index: 900;
+}
+
+.filters .sorters .sorter-box .sorter .sort .list_sort {
+  width: 100%;
+}
+
+.filters .sorters .sorter-box .sorter .sort .list_sort:hover {
+  color: #F16D7F;
+}
+
+.filters .sorters .sorter-box .sorter .sort .check_sort {
+  margin: 10px;
+}
+
+.filters .sorters .sorter-box .sorter_last {
+  width: 100%;
+  position: absolute;
 }
 
 .page-nav {
