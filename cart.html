@@ -136,8 +136,8 @@
 
     <div class="container">
 
-        <div class="cart-box">
-            <form class="cart-user" action="#">
+        <section class="cart-box">
+            <div class="cart-user">
                 <div class="left-box_cart">
                     <div class="product_list">
                         <div class="cart-items">
@@ -146,16 +146,18 @@
                                     <div class="foto_product">
                                         <img class="img_product" src="img/Foto3.jpg" alt="Foto">
                                     </div>
-                                    <div class="text_product">
-                                        <h2 class="heading-h2_cart">MANGO PEOPLE <br> T-SHIRT</h2>
-                                        <p class="cart_info">Price: <span class="span0">$300</span></p>
-                                        <p class="cart_info">Color: Red</p>
-                                        <p class="cart_info">Size: Xl </p>
-                                        <p class="cart_info">Quantity: 2</p>
-
-                                    </div>
-
                                 </a>
+                                <div class="text_product">
+                                    <a class="link0 cart_link" href="product.html" target="blank">
+                                        <h2 class="heading-h2_cart">MANGO PEOPLE <br> T-SHIRT</h2>
+                                    </a>
+                                    <p class="cart_info">Price: <span class="span0">$300</span></p>
+                                    <p class="cart_info">Color: Red</p>
+                                    <p class="cart_info">Size: Xl </p>
+                                    <p class="cart_info">Quantity: <input class="cart_number" type="number" min="1"
+                                            size="3" value="2"></p>
+
+                                </div>
                                 <!-- Кнопка х Bootstrap -->
                                 <button type="button" class="btn-close btn_cart" disabled aria-label="Close"></button>
 
@@ -169,18 +171,20 @@
                             <figure class="card_product">
                                 <a class="link0 cart_link" href="product.html" target="blank">
                                     <div class="foto_product">
-                                        <img class="img_product" src="img/Foto3.jpg" alt="Foto">
+                                        <img class="img_product" src="img/FotoC2.jpg" alt="Foto">
                                     </div>
-                                    <div class="text_product">
-                                        <h2 class="heading-h2_cart">MANGO PEOPLE <br> T-SHIRT</h2>
-                                        <p class="cart_info">Price: <span class="span0">$300</span></p>
-                                        <p class="cart_info">Color: Red</p>
-                                        <p class="cart_info">Size: Xl </p>
-                                        <p class="cart_info">Quantity: 2</p>
-
-                                    </div>
-
                                 </a>
+                                <div class="text_product">
+                                    <a class="link0 cart_link" href="product.html" target="blank">
+                                        <h2 class="heading-h2_cart">MANGO PEOPLE <br> T-SHIRT</h2>
+                                    </a>
+                                    <p class="cart_info">Price: <span class="span0">$300</span></p>
+                                    <p class="cart_info">Color: Red</p>
+                                    <p class="cart_info">Size: Xl </p>
+                                    <p class="cart_info">Quantity: <input class="cart_number" type="number" min="1"
+                                            size="3" value="2"></p>
+
+                                </div>
                                 <!-- Кнопка х Bootstrap -->
                                 <button type="button" class="btn-close btn_cart" disabled aria-label="Close"></button>
 
@@ -189,6 +193,7 @@
 
 
                         </div>
+
 
 
                     </div>
@@ -215,21 +220,20 @@
                         </form>
                     </div>
                     <div class="total-box">
-                        <form action="#">
-                            <div class="total_cart">
-                                <p>SUB TOTAL $900</p>
-                                <p class="cart_info">GRAND TOTAL<span class="span0"></span>$900</p>
-                            </div>
+                        <div class="total_cart">
+                            <p>SUB TOTAL $900</p>
+                            <p class="cart_info">GRAND TOTAL<span class="span0"> $900</span></p>
+                        </div>
+
+                        <button type="submit" class="button_pink total_button">PROCEED TO CHECKOUT</button>
 
 
-                            <button type="submit" class="button_pink total_button">PROCEED TO CHECKOUT</button>
-                        </form>
                     </div>
                 </div>
-            </form>
+            </div>
 
 
-        </div>
+        </section>
 
 
 

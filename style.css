@@ -1695,6 +1695,7 @@ li {
 }
 
 .cart-items .card_product {
+  max-width: 650px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1708,34 +1709,44 @@ li {
   top: 20px;
 }
 
-.cart-items .card_product .cart_link {
-  max-width: 650px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.cart-items .card_product .cart_link .foto_product {
+.cart-items .card_product .foto_product {
   max-height: 304px;
 }
 
-.cart-items .card_product .cart_link .foto_product .img_product {
+.cart-items .card_product .foto_product .img_product {
+  width: 100%;
   height: 100%;
 }
 
-.cart-items .card_product .cart_link .text_product {
+.cart-items .card_product .cart_link {
+  max-width: 260px;
+}
+
+.cart-items .card_product .text_product {
   width: 390px;
   padding: 20px 30px;
 }
 
-.cart-items .card_product .cart_link .text_product .heading-h2_cart {
+.cart-items .card_product .text_product .heading-h2_cart {
   width: 260px;
   margin-bottom: 42px;
 }
 
-.cart-items .card_product .cart_link .text_product .cart_info {
+.cart-items .card_product .text_product .heading-h2_cart:hover {
+  color: #F16D7F;
+}
+
+.cart-items .card_product .text_product .cart_info {
   color: #222222;
   margin-bottom: 6px;
+}
+
+.cart-items .card_product .text_product .cart_info .cart_number {
+  width: 40px;
+  height: 23px;
+  color: #222222;
+  text-align: center;
+  margin-left: 25px;
 }
 
 .cart-items:hover {
@@ -1747,12 +1758,12 @@ li {
   margin-left: 20px;
 }
 
-.adress-box {
+.right-box_cart .adress-box {
   padding: 15px 0;
   margin-bottom: 20px;
 }
 
-.adress-box .adress_input {
+.right-box_cart .adress-box .adress_input {
   width: 360px;
   margin-top: 20px;
   padding: 16px;
@@ -1762,11 +1773,11 @@ li {
   color: #B1B1B1;
 }
 
-.adress-box .adress_button {
+.right-box_cart .adress-box .adress_button {
   margin-top: 20px;
 }
 
-.total-box {
+.right-box_cart .total-box {
   width: 360px;
   background-color: #F5F3F3;
   padding: 40px;
@@ -1782,12 +1793,12 @@ li {
           align-items: center;
 }
 
-.total-box .total_cart {
+.right-box_cart .total-box .total_cart {
   text-align: right;
   border-bottom: 1px solid #E2E2E2;
 }
 
-.total-box .total_button {
+.right-box_cart .total-box .total_button {
   margin-top: 17px;
 }
 /*# sourceMappingURL=style.css.map */
