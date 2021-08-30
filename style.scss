@@ -943,7 +943,23 @@ li {
 }
 
 
-
+// Движ
+@media (min-width: 1420px) {
+    .item-1 {
+        transition: transform 2s cubic-bezier(.45,.29,.86,.41);  
+    }
+    .item-2 {
+        transition: transform 2s cubic-bezier(.45,.29,.86,.41);
+        transition-delay: 1s;  
+    }
+    .item-3 {
+        transition: transform 2s cubic-bezier(.45,.29,.86,.41);
+        transition-delay: 2s; 
+    }
+    .footer_top:hover .item {
+        transform: translateY(-55px);
+    }
+}
 
 /*АДАПТИВ под гаджеты*/
 /*планшет горизонт.+вертикал.*/

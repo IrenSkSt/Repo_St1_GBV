@@ -897,6 +897,35 @@ li {
   background-color: #F16D7F;
 }
 
+@media (min-width: 1420px) {
+  .item-1 {
+    -webkit-transition: -webkit-transform 2s cubic-bezier(0.45, 0.29, 0.86, 0.41);
+    transition: -webkit-transform 2s cubic-bezier(0.45, 0.29, 0.86, 0.41);
+    transition: transform 2s cubic-bezier(0.45, 0.29, 0.86, 0.41);
+    transition: transform 2s cubic-bezier(0.45, 0.29, 0.86, 0.41), -webkit-transform 2s cubic-bezier(0.45, 0.29, 0.86, 0.41);
+  }
+  .item-2 {
+    -webkit-transition: -webkit-transform 2s cubic-bezier(0.45, 0.29, 0.86, 0.41);
+    transition: -webkit-transform 2s cubic-bezier(0.45, 0.29, 0.86, 0.41);
+    transition: transform 2s cubic-bezier(0.45, 0.29, 0.86, 0.41);
+    transition: transform 2s cubic-bezier(0.45, 0.29, 0.86, 0.41), -webkit-transform 2s cubic-bezier(0.45, 0.29, 0.86, 0.41);
+    -webkit-transition-delay: 1s;
+            transition-delay: 1s;
+  }
+  .item-3 {
+    -webkit-transition: -webkit-transform 2s cubic-bezier(0.45, 0.29, 0.86, 0.41);
+    transition: -webkit-transform 2s cubic-bezier(0.45, 0.29, 0.86, 0.41);
+    transition: transform 2s cubic-bezier(0.45, 0.29, 0.86, 0.41);
+    transition: transform 2s cubic-bezier(0.45, 0.29, 0.86, 0.41), -webkit-transform 2s cubic-bezier(0.45, 0.29, 0.86, 0.41);
+    -webkit-transition-delay: 2s;
+            transition-delay: 2s;
+  }
+  .footer_top:hover .item {
+    -webkit-transform: translateY(-55px);
+            transform: translateY(-55px);
+  }
+}
+
 /*АДАПТИВ под гаджеты*/
 /*планшет горизонт.+вертикал.*/
 @media (max-width: 1440px) {
