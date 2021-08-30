@@ -1098,6 +1098,11 @@ li {
 
 /*планшет горизонт.+вертикал.*/
 @media (max-width: 768px) {
+    .header .container_header .img_menu .search .box_search .text_search {
+            width: 300px;
+        }
+        
+        
     .heading-h1 {
         font-weight: 900;
         font-size: 38px;
@@ -1131,7 +1136,21 @@ li {
         display: none;
     }
 
-    
+    .header .container_header .img_menu .search .box_search {
+        position: absolute;
+        top: 55px;
+        left: -20px;
+
+        & > form {
+            display: flex;
+        }
+        .text_search {
+            width: 200px;
+        }
+        .button_search {
+            line-height: 10px;
+        }
+    }
 
     .container_top {
         max-width: 667px;
@@ -1199,8 +1218,7 @@ li {
         text-align: center;
     }
 
-    .bottom-box {}
-
+     
     .footer_send {
         width: 100%;
 
@@ -1251,6 +1269,20 @@ li {
 
 
     
+}
+
+/*мобильник вертик.*/
+@media (max-width: 425px) {
+    .header .container_header .img_menu .search .box_search {
+        position: absolute;
+        top: 55px;
+        left: -60px;
+
+        .text_search {
+            width: 150px;
+        }     
+        
+    }
 }
 
 
