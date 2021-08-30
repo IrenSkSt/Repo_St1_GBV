@@ -46,10 +46,15 @@
         }
         .foto_product {
             max-height: 304px;
+            transition: transform 2s;
 
             .img_product {
                 width: 100%;
                 height: 100%;
+            }
+
+            &:hover {
+                transform: scale(1.2);
             }
         }
         .cart_link {
