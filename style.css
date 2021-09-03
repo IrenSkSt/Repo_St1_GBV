@@ -1923,4 +1923,88 @@ li {
 .right-box_cart .total-box .total_button {
   margin-top: 17px;
 }
+
+/*планшет горизонт.+вертикал.*/
+@media (max-width: 768px) {
+  .cart-box {
+    padding: 48px 0;
+  }
+  .cart-box .cart-user {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cart-box .cart-user .left-box_cart {
+    padding-top: 10px;
+  }
+  .cart-box .cart-user .left-box_cart .cart-items {
+    max-width: 100%;
+  }
+  .cart-box .cart-user .left-box_cart .cart-items .card_product {
+    min-width: 100%;
+  }
+  .cart-box .cart-user .right-box_cart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 65px;
+  }
+  .cart-box .cart-user .right-box_cart .adress-box {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    margin-right: 2%;
+  }
+  .cart-box .cart-user .right-box_cart .total-box {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    margin: 50px 0;
+  }
+}
+
+/*мобильник гориз.+вертик.*/
+@media (max-width: 667px) {
+  .cart_info {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .cart-items .card_product {
+    max-width: 100%;
+  }
+  .cart-items .card_product .text_product {
+    max-width: 100%;
+  }
+  .cart-items .card_product .text_product .heading-h2_cart {
+    width: 100%;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .cart-items .card_product .text_product .cart_info .cart_number {
+    height: 16px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .btn_cart {
+    font-size: 10px;
+  }
+  .button-box .cart_button {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 9px 18px;
+  }
+  .cart-box .cart-user .right-box_cart {
+    display: block;
+  }
+  .right-box_cart .adress-box .adress_input {
+    width: 100%;
+  }
+  .right-box_cart .total-box {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
