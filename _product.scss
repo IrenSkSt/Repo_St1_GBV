@@ -188,3 +188,9 @@
 }
 
 
+/*планшет горизонт.+вертикал.*/
+@media (max-width: 768px) {
+    .products .card_last {
+        display: none;
+    }
+}

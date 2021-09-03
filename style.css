@@ -1664,6 +1664,13 @@ li {
   background: #f4f4f4;
 }
 
+/*планшет горизонт.+вертикал.*/
+@media (max-width: 768px) {
+  .products .card_last {
+    display: none;
+  }
+}
+
 .reg-box {
   padding: 64px 0;
   display: -webkit-box;
