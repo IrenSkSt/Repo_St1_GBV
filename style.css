@@ -1213,6 +1213,9 @@ li {
   .header .container_header .img_menu .search .box_search .text_search {
     width: 150px;
   }
+  .head_box {
+    height: 363px;
+  }
 }
 
 .head_page {
@@ -1750,6 +1753,10 @@ li {
   margin-right: 23px;
 }
 
+.txt-not {
+  display: none;
+}
+
 @media (max-width: 1440px) {
   .reg_text {
     font-size: 16px;
@@ -1761,6 +1768,16 @@ li {
   .reg-box {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+}
+
+/*мобильник вертик.*/
+@media (max-width: 425px) {
+  .reg-box .reg_form .reg_input {
+    width: 300px;
+  }
+  .reg-box .reg_form .form_text {
+    width: 300px;
   }
 }
 

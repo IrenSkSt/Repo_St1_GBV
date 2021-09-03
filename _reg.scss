@@ -78,7 +78,10 @@
     }
     
 }
-
+// валидатор требует заголовок для секции
+.txt-not {
+    display: none;
+}
 
 @media (max-width: 1440px) {
     
@@ -97,5 +100,18 @@
     
         flex-wrap: wrap;
     }
+}
+
+/*мобильник вертик.*/
+@media (max-width: 425px) {
+    .reg-box .reg_form {
+        .reg_input {
+            width: 300px;
+        }
+        .form_text {
+            width: 300px;
+        }
+    }
+    
 }
 
