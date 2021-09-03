@@ -37,8 +37,6 @@
 }
 
 
-
-
 // 2я стр Каталог
 .filters {
     height: 30px;
@@ -193,7 +191,7 @@
                 
             }
             .sorter_last {
-                width: 100%;
+                width: 110px;
 
                 position: absolute;
             }
@@ -235,6 +233,60 @@
         color: $color;
         
     }
+}
+
+/*планшет горизонт.+вертикал.*/
+@media (max-width: 1440px) AND (min-width: 1024px) {
+    .filters {
+        .great_fitter {
+            max-width: 293px;
+    
+            .great_filter-box {
+                width: 293px;
+            }
+        }
+        
+        
+    }
+    
+}
+
+/*планшет горизонт.+вертикал.*/
+@media (max-width: 768px) {
+    .filters {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/*мобильник вертик.*/
+@media (max-width: 667px) {
+    .top_page {
+        height: 100%;
+    }
+    .head_page {
+        padding: 24px;
+        margin-bottom: 22px;
+        display: flex;
+        flex-direction: column;
+
+        .heading-h2_page {
+            margin-top: 0;
+            margin-bottom: 32px;
+        }
+    }
+
+    
+    .txt_filter {
+        display: none;
+    }
+
+    .filters .sorters {
+        position: absolute;
+        left: 70px;
+        z-index: 990;
+    }
+    
 }
 
 
